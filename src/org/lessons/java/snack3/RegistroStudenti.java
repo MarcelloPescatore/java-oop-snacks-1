@@ -30,6 +30,7 @@ public class RegistroStudenti {
         this.registro = nuovoRegistro;
     }
 
+    @Override 
     public String toString(){
         String output = "Registro studenti: ";
         for (Studente studente : this.registro){
